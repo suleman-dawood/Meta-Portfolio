@@ -7,14 +7,16 @@
 header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
+    height: auto;
 }
 
 .navbar {
     background-color: #444;
     padding: 10px;
     text-align: center;
+    word-spacing: 30px;
 }
 
 .navbar ul {
@@ -37,12 +39,20 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 80px;
+}
+
+#banner {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    padding-bottom: 60px;
 }
 
 .content {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 70px;
     margin-bottom: 20px;
 }
 
@@ -52,14 +62,34 @@ main {
     margin-bottom: 10px;
 }
 
+h2 {
+    padding: 20px;
+}
+
 .row input[type="text"] {
-    padding: 5px;
+    padding: 20px;
     width: calc(33.33% - 10px); 
 }
 
+.row div {
+    width: calc(30% - 10px);
+}
+.row img {
+    width: calc(90% - 10px);
+}
+
 footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #333;
     color: white;
-    padding: 10px;
-    text-align: center;
+}
+
+.footer-section {
+    width: 48%;
+}
+
+.footer-section h3 {
+    margin-top: 0;
 }
